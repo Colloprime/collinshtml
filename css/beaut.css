@@ -1,0 +1,59 @@
+td,th{
+  border: black 2px solid;
+  padding: 5px;
+}
+table{
+  width: auto;
+  border-collapse: collapse;
+
+}
+thead{
+  font-family:"Comic Sans MS";
+  font-size: 18px;
+  color: #072ce5;
+}
+tr:nth-child(odd){
+  background-color: cyan;
+
+}
+h1{
+  text-align: center;
+  color: #f80606;
+}
+.Fighters{
+  border: 2px solid #ffffff;
+  background-color: #1e1e1d;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  color: #3f6de7;
+}
+
+.Skills{
+  border: 2px solid #1e1e1d;
+  background-color: #2bd7d7;
+  margin: 20px;
+  padding: 10px;
+  text-align: end;
+  color: #d77d0d;
+
+}
+.Fatality{
+  border: 2px solid #e58610;
+  background-color: #f80606;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
+  color: #1e1e1d;
+}
+.Realm{
+  border: 2px solid #49e5e5;
+  background-color: #072ce5;
+  margin: 20px;
+  padding: 10px;
+  text-align: right;
+  color: #0ae50a;
+}
+body {
+  background-image: url("img/one.jpeg");
+}
